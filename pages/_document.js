@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
+      <title>WebSkySeo</title>
       <link
           href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
           rel="stylesheet"

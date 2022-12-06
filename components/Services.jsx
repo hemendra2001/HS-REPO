@@ -9,7 +9,7 @@ const Services = () => {
           <h3>
             Check Our <span>Services</span>
           </h3>
-          <p>OUR SPECIALTIES .</p>
+          <p>OUR SPECIALITIES .</p>
         </div>
 
         <div className="row">

@@ -1,6 +1,14 @@
 import React from "react";
 
 const Footer = () => {
+
+  const instagram = "instagram.com/webskyseo"
+  const linkdin = "https://www.linkedin.com/in/websky-seo-56a917257"
+  const twitter = "https://twitter.com/webskyseo?t=kWkVJf-zWxV5kJ7Njaw4yg&s=09"
+  const facebook = "https://www.facebook.com/profile.php?id=100088228801242&mibextid=ZbWKwL"
+  const email = "webskyseo07@gmail.com"
+  const mobileNumber = "+918058080082"
+
   return (
     <>
       <footer id="footer">
@@ -9,7 +17,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-3 col-md-6 footer-contact">
                 <h3>
-                  Mamtaprajaapt<span>.</span>
+                  WebSkySeo<span>.</span>
                 </h3>
                 <p>
                   Hiran Mangri Sector 3 <br />
@@ -17,9 +25,9 @@ const Footer = () => {
                   <br />
                   India <br />
                   <br />
-                  <strong>Phone:</strong> +918058080082
+                  <strong>Phone:</strong> {mobileNumber}
                   <br />
-                  <strong>Email:</strong> info@example.com
+                  <strong>Email:</strong>{email}
                   <br />
                 </p>
               </div>
@@ -28,21 +36,21 @@ const Footer = () => {
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
-                    <i className="bx bx-chevron-right"></i> <a href="#">Home</a>
+                    <i className="bx bx-chevron-right"></i> <a href="#hero">Home</a>
                   </li>
                   <li>
-                    <i className="bx bx-chevron-right"></i> <a href="#">About us</a>
+                    <i className="bx bx-chevron-right"></i> <a href="#about">About us</a>
                   </li>
                   <li>
-                    <i className="bx bx-chevron-right"></i> <a href="#">Services</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Team</a>
+                    <i className="bx bx-chevron-right"></i> <a href="#services">Services</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Contact</a>
+                    <a href="#team">Team</a>
+                  </li>
+                  <li>
+                    <i className="bx bx-chevron-right"></i>{" "}
+                    <a href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -60,15 +68,15 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Product Management</a>
+                    <a href="#">Social Media Management</a>
+                  </li>
+                  <li>
+                    <i className="bx bx-chevron-right"></i>{" "}
+                    <a href="#">Seo</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
                     <a href="#">Marketing</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Graphic Design</a>
                   </li>
                 </ul>
               </div>
@@ -76,23 +84,19 @@ const Footer = () => {
               <div className="col-lg-3 col-md-6 footer-links">
                 <h4>Our Social Networks</h4>
                 <p>
-                  Cras fermentum odio eu feugiat lide par naso tierra videa
-                  magna derita valies
+                Connect with us from following social media platforms.
                 </p>
                 <div className="social-links mt-3">
-                  <a href="#" className="twitter">
+                  <a href={twitter} className="twitter">
                     <i className="bx bxl-twitter" />
                   </a>
-                  <a href="#" className="facebook">
+                  <a href={facebook} className="facebook">
                     <i className="bx bxl-facebook" />
                   </a>
-                  <a href="#" className="instagram">
+                  <a href={instagram} className="instagram">
                     <i className="bx bxl-instagram" />
                   </a>
-                  <a href="#" className="google-plus">
-                    <i className="bx bxl-skype" />
-                  </a>
-                  <a href="#" className="linkedin">
+                  <a href={linkdin} className="linkedin">
                     <i className="bx bxl-linkedin" />
                   </a>
                 </div>
@@ -105,7 +109,7 @@ const Footer = () => {
           <div className="copyright">
             &copy; Copyright{" "}
             <strong>
-              <span>Mamtaprajaapt</span>
+              <span>WebSkySeo</span>
             </strong>
             . All Rights Reserved
           </div>

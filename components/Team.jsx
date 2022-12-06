@@ -9,10 +9,6 @@ const Team = () => {
           <h3>
             Our Hardworking <span>Team</span>
           </h3>
-          {/* <p>
-            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-            adipisci expedita at voluptas atque vitae autem.
-          </p> */}
         </div>
 
         <div className="row">
@@ -28,20 +24,7 @@ const Team = () => {
                   className="img-fluid-new"
                   alt=""
                 />
-                <div className="social">
-                  <a href="">
-                    <i className="bi bi-twitter"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-facebook"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-instagram"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-linkedin"></i>
-                  </a>
-                </div>
+          
               </div>
               <div className="member-info">
                 <h4>kamlesh prajaapt</h4>
@@ -58,23 +41,9 @@ const Team = () => {
             <div className="member">
               <div className="member-img">
                 <img src="/img/team/team-2.jpeg" className="img-fluid-new" alt="" />
-                <div className="social">
-                  <a href="">
-                    <i className="bi bi-twitter"></i>
-                  </a>
-                  <a href="https://www.facebook.com/shivamstudiodungla">
-                    <i className="bi bi-facebook"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-instagram"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-linkedin"></i>
-                  </a>
-                </div>
               </div>
               <div className="member-info">
-                <h4>Narayan</h4>
+                <h4>Bharat Singh Rajawat</h4>
                 <span>Product Manager</span>
               </div>
             </div>
@@ -92,20 +61,7 @@ const Team = () => {
                   className="img-fluid-new"
                   alt=""
                 />
-                <div className="social">
-                  <a href="">
-                    <i className="bi bi-twitter"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-facebook"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-instagram"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-linkedin"></i>
-                  </a>
-                </div>
+          
               </div>
               <div className="member-info">
                 <h4>Hemendra Singh Rao</h4>
@@ -126,23 +82,10 @@ const Team = () => {
                   className="img-fluid-new"
                   alt=""
                 />
-                <div className="social">
-                  <a href="">
-                    <i className="bi bi-twitter"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-facebook"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-instagram"></i>
-                  </a>
-                  <a href="">
-                    <i className="bi bi-linkedin"></i>
-                  </a>
-                </div>
+          
               </div>
               <div className="member-info">
-                <h4>Amanda Jepson</h4>
+                <h4>Heena Kunwar Rao</h4>
                 <span>Accountant</span>
               </div>
             </div>

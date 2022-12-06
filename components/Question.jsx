@@ -9,10 +9,6 @@ const Question = () => {
           <h3>
             Frequently Asked <span>Questions</span>
           </h3>
-          <p>
-            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-            adipisci expedita at voluptas atque vitae autem.
-          </p>
         </div>
 
         <div className="row justify-content-center mt-3">
@@ -138,6 +134,7 @@ const Question = () => {
                   <i className="bi bi-chevron-up icon-close"></i>
                 </div>
                 <div id="faq4" className="collapse" data-bs-parent=".faq-list">
+            <ul className="mt-3">
                   <li className="mt-4">
                     <b>Increase Brand Awareness:</b> Good SEO services make your
                     website popular and help you earn a good Brand awareness and
@@ -159,6 +156,7 @@ const Question = () => {
                     it. Due to this, your rival companies are already doing this
                     and getting more leads and increased sales.
                   </li>
+            </ul>
                 </div>
               </li>
             </ul>
@@ -180,7 +178,8 @@ const Question = () => {
                   <i className="bi bi-chevron-up icon-close"></i>
                 </div>
                 <div id="faq5" className="collapse" data-bs-parent=".faq-list">
-                  <li className="mt-4">
+                <ul className="mt-3">
+                  <li>
                     <b>Lower Costs:</b> With SEO services, you can easily track
                     the user traffic on your website based on region, device,
                     and age group.
@@ -205,6 +204,7 @@ const Question = () => {
                     will rank it higher on the result pages making your website
                     and business popular.
                   </li>
+                  </ul>
                 </div>
               </li>
             </ul>
@@ -253,7 +253,8 @@ const Question = () => {
                   <i className="bi bi-chevron-up icon-close"></i>
                 </div>
                 <div id="faq7" className="collapse" data-bs-parent=".faq-list">
-                  <li className="mt-4">
+                <ul className="mt-3">
+                  <li>
                     <b>Work with the latest Google Algorithms:</b> Our experts
                     always follow the latest Google algorithms while doing SEO
                     to stay ahead of the crowd.
@@ -275,6 +276,7 @@ const Question = () => {
                     your business’s reputation in the online world should be
                     maintained at a very good level.
                   </li>
+                  </ul>
                 </div>
               </li>
             </ul>
@@ -325,7 +327,8 @@ const Question = () => {
                   <i className="bi bi-chevron-up icon-close"></i>
                 </div>
                 <div id="faq9" className="collapse" data-bs-parent=".faq-list">
-                  <li className="mt-4">
+                <ul className="mt-3">
+                  <li>
                     <b>Years of SEO Experience:</b>I have more than 5 Years of
                     SEO experience.
                   </li>
@@ -354,6 +357,7 @@ const Question = () => {
                     good SEO specialist makes the right decisions and knows how
                     to achieve the fastest outcomes.
                   </li>
+                  </ul>
                 </div>
               </li>
             </ul>

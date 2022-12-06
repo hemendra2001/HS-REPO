@@ -6,7 +6,7 @@ const HeroSection = () => {
       <section id="hero" className="d-flex align-items-center">
         <div className="container" data-aos="zoom-out" data-aos-delay="100">
           <h1>
-            Hello, I'm <span>Mamta prajaapt</span>
+            Hello, I'm <span>Kamlesh prajaapt</span>
           </h1>
           <h2>
             I work with most innovative solution in the market to help you to

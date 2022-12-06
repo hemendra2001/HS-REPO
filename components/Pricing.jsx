@@ -10,8 +10,7 @@ const Pricing = () => {
             Check our <span>Pricing</span>
           </h3>
           <p>
-            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-            adipisci expedita at voluptas atque vitae autem.
+           Here are some of our plans please choose according to your choice.
           </p>
         </div>
 

@@ -5,9 +5,10 @@ const Footer = () => {
   const instagram = "instagram.com/webskyseo"
   const linkdin = "https://www.linkedin.com/in/websky-seo-56a917257"
   const twitter = "https://twitter.com/webskyseo?t=kWkVJf-zWxV5kJ7Njaw4yg&s=09"
-  const facebook = "https://www.facebook.com/profile.php?id=100088228801242&mibextid=ZbWKwL"
+  const facebook = "https://www.facebook.com/people/webskyseo/100089105651042/?mibextid=ZbWKwL"
   const email = "webskyseo07@gmail.com"
   const mobileNumber = "+918058080082"
+
 
   return (
     <>

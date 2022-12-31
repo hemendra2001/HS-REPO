@@ -40,7 +40,7 @@ const Team = () => {
           >
             <div className="member">
               <div className="member-img">
-                <img src="/img/team/team-2.jpeg" className="img-fluid-new" alt="" />
+                <img src="/img/team/team-2.jpg" className="img-fluid-new" alt="" />
               </div>
               <div className="member-info">
                 <h4>Bharat Singh Rajawat</h4>
@@ -57,7 +57,7 @@ const Team = () => {
             <div className="member">
               <div className="member-img">
                 <img
-                  src="/img/team/team-3.jpg"
+                  src="/img/team/team-3.png"
                   className="img-fluid-new"
                   alt=""
                 />

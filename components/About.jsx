@@ -10,7 +10,7 @@ const About = () => {
             Find Out More <span>About Us</span>
           </h3>
           <p className="font-change">
-            First Rank is the #1 SEO services provider to boost your
+            First Rank in the SEO services provider to boost your
             search engine ranking, attract web traffic, get more leads and enjoy
             higher conversions!.
           </p>
